@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+
+<body>
+
+  <a href="index.html">Back to homepage</a>
+  <h1>Contact Information</h1>
+  <h2>Email Address</h2>
+  <p>matthewszanyi@gmail.com</p>
+  <h2>Phone Numbers</h2>
+
+<!-- I have set the phone numbers as an unordered list due to their being mutiple numbers, of which the order is insignificant. -->
+
+  <ul>
+    <li>Mobile: 07443477051</li>
+    <li>Home: 015395 63214</li>
+  </ul>
+
+  <!-- The attribute 'class' refers to "A space-seperated list of the classes of the element. Classes allows CSS and Javascrippt to select and access specific elements via the class selectors or functions."
+
+  The attribute 'action' refers to "The URL that processes the form submission", I will hopefully learn more on this subject by reading my new Kindle HTTP book.
+
+  The attribute 'method' refers to "The HTTP method to submit the form with". I will hopefully learn more on this subject by reading my new Kindle HTTP book. -->
+
+<hr>
+<h2>Leave Your Contact Details and I'll get Back to you</h2>
+<form enctype="text/plain" action="mailto:matthewszanyi@gmail.com" method="post">
+<label>Your Name:
+  <input type="text" name="yourName" value=""><br>
+</label>
+<label>Your Email:
+  <input type="email" name="yourEmail" value=""><br>
+</label>
+<label>Your Message:<br>
+  <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+</label>
+<input type="submit" name="" value="Submit">
+</form>
+
+</body>
+
+</html>
